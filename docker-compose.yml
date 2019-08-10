@@ -1,0 +1,7 @@
+services:
+welcome-bot:
+container-name:welcome-bot
+restart: on-failure
+build:
+ports:
+-"8080:8080"
